@@ -1,0 +1,15 @@
+button {
+    padding: $main_padding;
+    font-size: 20px;
+    border: 0.4px solid $main_color ;
+    outline: 0;
+    background-color: black;
+    color: $white;
+    cursor: pointer;
+    width: 120px;
+    transition: 0.3s ease-out;
+    &:hover {
+        background-color: #eee;
+        color: black;
+    }
+}

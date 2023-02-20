@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sass/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Mohammed</h2>
+                    <p>Front End Developer</p>
+                </div>
+                <i onclick="showMenu('show')" class="fa fa-bars"></i>
+                <nav>
+                    <li>
+                        <a href="#land">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#port">Portfolio</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="land" class="land">
+        <div>
+            <h3>Mohammed Elsayed</h3>
+            <p>
+                <span style="font-weight: bold;
+                color: orangered;
+                ">F</span>ront End Developer
+            </p>
+            <button>
+                Start
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="main-title">
+                About Us ('-')
+            </h2>
+            <div class="about_wrapper">
+                <div class="img_container">
+                    <img src="./images/866-536x354.jpg" alt="img">
+                </div>
+                <div class="info">
+                    <p>
+                        Mohammed
+                    <h4>
+                        Front
+                        End
+                        Developer
+                    </h4>
+                    <span class="css"> Css</span><br>
+                    <span class="scss">Sass_</span><br>
+                    <span class="boots">Bootstrap</span><br>
+                    <span class="js">Javascript React</span><br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, atque.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="port">
+        <div class="container">
+            <h2 class="main-title">
+                My Works ('. ')
+            </h2>
+            <div class="work_wrapper">
+                <ul>
+                    <li data-color="black" data-lang=".Css" class="active">Css</li>
+                    <li data-color="rgb(247, 0, 255)" data-lang=".sass">Sass</li>
+                    <li data-color="#0275d8" data-lang=".Bootstrap">Bootstrap</li>
+                    <li data-color="#FCAA00" data-lang=".java">Javascript</li>
+                </ul>
+                <div class="content">
+                    <div class="Css active">
+                        <h3>
+                            Templates With Html/Css
+                        </h3>
+                        <div class="templates">
+                            <a class="template" href="https://mohammed-elsayed-elmorsy.github.io/htmi_Css_responsive_1/"
+                                style="display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template_1
+                                </span>
+                            </a>
+                            <a class="template" href="" style="display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template_2
+                                </span>
+                            </a>
+                            <a class="template" href="" style="display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template_3
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sass">
+                        <h3>
+                            Templates With SASS
+                        </h3>
+                        <div class="templates">
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_Sass_1
+                                </span>
+                            </div>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_Sass_2
+                                </span>
+                            </div>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_Sass_3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bootstrap">
+                        <h3>
+                            Templates With Bootstrap
+                        </h3>
+                        <div class="templates">
+                            <a target="_blank" href="https://mohammed-elsayed-elmorsy.github.io/Template_Bootstrap_1/"
+                                class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_1_BT
+                                </span>
+                            </a>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_2_BT
+                                </span>
+                            </div>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            ">
+                                <span>
+                                    Template_3_BT
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="java">
+                        <h3>
+                            Templates With Javascript
+                        </h3>
+                        <div class="templates">
+                            <a href="https://mohammed-elsayed-elmorsy.github.io/Javascript_Template/" target="_blank"
+                                class="template" style="display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template With Javasscript
+                                </span>
+                            </a>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template With Javasscript_jquery
+                                </span>
+                            </div>
+                            <div class="template" style="display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            justify-content: center;
+                            ">
+                                <span>
+                                    Template With Javasscript_React
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="contact_wrapper">
+                <h2 class="main-title">
+                    Keep in Touch (-.-)
+                </h2>
+                <form>
+                    <div class="name_input ">
+                        <input class="" type="text" placeholder="First Name">
+                        <input class="" type="text " placeholder="Last Name">
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="Enter Email">
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Leave Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="content">
+            <div class="logo">
+                <h3>
+                    Mohammed
+                </h3>
+                <p>
+                    Front End Developer
+                </p>
+            </div>
+            <p>
+                All_Rights_preserved &copy;Mohammed2023
+            </p>
+            <ul>
+                <li>
+                    <i class="fab fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fab fa-youtube"></i>
+                </li>
+                <li>
+                    <i class="fab fa-google"></i>
+                </li>
+                <li>
+                    <i class="fab fa-twitter "></i>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script>
+        function showMenu(className) {
+            document.querySelector('header nav').classList.toggle(className)
+        }
+
+        let ALL_LI = document.querySelectorAll('.works ul li')
+        let ALL_DIVS = document.querySelectorAll('.works .content div')
+
+
+        ALL_LI.forEach(li => {
+            li.addEventListener('click', (e) => {
+                ALL_LI.forEach(li => {
+                    li.classList.remove('active')
+                })
+                e.target.classList.add('active')
+                ALL_DIVS.forEach(div => {
+                    div.classList.remove('active')
+                })
+                document.querySelector(e.target.dataset.lang).classList.add('active')
+                document.querySelector(e.target.dataset.lang).style.backgroundColor = e.target.dataset.color
+            })
+        })
+    </script>
+</body>
+
+</html>
